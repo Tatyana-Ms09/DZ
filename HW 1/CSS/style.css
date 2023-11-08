@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4e4b4b;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    margin-top: 210px;
+
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 100%;
+    max-height: 140%;
+    display: block;
+}
+
+h2 {
+    color: black;
+}
+
+ul {
+    padding-left: 20px; 
+    color: black;
+}
+
+.social-networks, .hobbies, .knowledge, .contact {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  
+}
+
+p{
+    color: black;
+}
