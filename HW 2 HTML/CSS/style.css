@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: rgb(236, 233, 233)
+}
+
+h1 {
+    text-align: center;
+    color: rgb(23, 23, 120);
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 10px;
+}
+h2, h3, strong{
+color: rgb(90, 85, 85);
+}
