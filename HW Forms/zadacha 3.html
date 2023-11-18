@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./css/style 3.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-section">
+                <h2>Регистрационные данные</h2>
+                <div class="input-group">
+                    <label for="login">Логин:</label>
+                    <input type="text" id="login" name="login" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Почтовый адрес:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </div>
+            <!-- Персональные данные -->
+            <div class="form-section">
+                <h2>Персональные данные</h2>
+                <div class="input-group">
+                    <label for="firstName">Имя:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastName">Фамилия:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="radio-group">
+                    <label>Пол:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Мужской</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Женский</label>
+                </div>
+                <div class="input-group">
+                    <label for="birthdate">Дата рождения:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+            </div>
+
+            <!-- Дополнительно -->
+            <div class="form-section">
+                <h2>Дополнительно</h2>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Подписаться на рассылку</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">Согласен с правилами ресурса</label>
+                </div>
+            </div>
+
+            <button type="submit">Зарегистрироваться</button>
+
+        </form>
+    </div>
+</body>
+</html>
