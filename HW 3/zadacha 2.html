@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style 2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <p class = "menu">MENU<p>
+            <div class="menu-item" onmouseover="expandMenu()" onmouseout="collapseMenu()">
+                <i class="fas fa-edit"></i>Edit
+            </div>
+            <div class="menu-item" onmouseover="expandMenu()" onmouseout="collapseMenu()">
+                <i class="fas fa-heart"></i>Favorites
+            </div>
+            <div class="menu-item" onmouseover="expandMenu()" onmouseout="collapseMenu()">
+                <i class="fas fa-history"></i>History
+            </div>
+            <div class="menu-item" onmouseover="expandMenu()" onmouseout="collapseMenu()">
+                <i class="fas fa-shield-alt"></i>Security
+            </div>
+            <div class="menu-item" onmouseover="expandMenu()" onmouseout="collapseMenu()">
+                <i class="fas fa-cogs"></i>Settings
+            </div>
+        </div>
+        <div class="content">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla sagittis augue a egestas. Suspendisse a risus accumsan elit accumsan volutpat. Nullam eget odio purus. Vestibulum ullamcorper bibendum lectus, in porttitor nisi viverra non. Donec molestie consequat pulvinar. Sed rhoncus nisl vitae arcu aliquam blandit. Cras varius ipsum dui, in lobortis nulla semper vulputate. Nulla facilisi. Curabitur gravida non tellus ac varius. Aenean nec massa nunc. Vivamus in cursus mauris, id tincidunt quam. Proin sollicitudin turpis a lacinia maximus. Sed vel lacinia dui. Nam scelerisque condimentum suscipit. Proin condimentum erat et magna lobortis commodo. Sed sed ante eu nulla bibendum condimentum.</p>
+            <p>Quisque venenatis enim viverra lectus eleifend, ut maximus arcu pulvinar. Proin sagittis egestas tellus, nec suscipit neque condimentum et. Suspendisse quis sem at nulla maximus fringilla id a tellus. Nam posuere felis vitae quam tristique molestie. Suspendisse maximus auctor tortor, nec finibus sem ultricies sed. Nullam consectetur, sem eu rhoncus hendrerit, nulla sapien rhoncus velit, cursus mollis nulla eros id erat. Mauris venenatis enim eget dui mollis, in fringilla nibh varius. Suspendisse elementum ac dui vel sagittis. Vestibulum sollicitudin pellentesque odio nec cursus. Fusce rutrum ac orci eget pellentesque. Praesent at sem velit. Cras sed posuere libero. Proin sodales, lorem sit amet tincidunt pulvinar, tortor lectus feugiat lorem, dapibus mattis est urna sit amet sem. Phasellus congue hendrerit euismod.</p>
+            <p>Nunc eget velit metus. Nullam pretium tristique quam, ac dignissim est molestie ac. Integer fringilla est quis massa consequat posuere. Donec vel orci eros. Phasellus viverra elementum nunc at porttitor. Vivamus vitae libero vel libero rhoncus tristique. Mauris dignissim, massa nec aliquam aliquam, leo sapien tempor nisi, vitae egestas velit ante vel metus. Nulla pretium velit eu egestas varius. Praesent vel turpis tincidunt, dignissim nunc ac, ullamcorper urna. Cras a blandit nisi. Duis vel bibendum sapien. Mauris eget elit sit amet nisl imperdiet commodo in nec nisi.</p>
+            <h2>More Information</h2>
+            <p>Although the phrase is nonsense, it does have a long history. The phrase has been used for several centuries by typographers to show the most distinctive features of their fonts. It is used because the letters involved and the letter spacing in those combinations reveal, at their best, the weight, design, and other important features of the typeface.</p>
+            <p>A 1994 issue of "Before & After" magazine traces "Lorem ipsum ..." to a jumbled Latin version of a passage from de Finibus Bonorum et Malorum, a treatise on the theory of ethics written by Cicero in 45 B.C. The passage "Lorem ipsum ..." is taken from text that reads, "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ...," which translates as, "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+            <p>During the 1500s, a printer adapted Cicero's text to develop a page of type samples. Since then, the Latin-like text has been the printing industry's standard for fake, or dummy, text. Before electronic publishing, graphic designers had to mock up layouts by drawing in squiggled lines to indicate text. The advent of self-adhesive sheets preprinted with "Lorem ipsum" gave a more realistic way to indicate where text would go on a page.</p>
+            <h2>Where does it come from?</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+        </div>
+    </div>
+
+    <script>
+        function expandMenu() {
+            document.getElementById('sidebar').classList.add('expand');
+        }
+
+        function collapseMenu() {
+            document.getElementById('sidebar').classList.remove('expand');
+        }
+    </script>
+</body>
+
+</html>

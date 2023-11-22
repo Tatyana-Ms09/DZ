@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 900px;
+    height: 700px;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(148, 148, 240);
+}
+
+table thead {
+    position: sticky;
+    top: 0;
+    background-color: rgb(235, 235, 245);
+}
+
+table td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: rgb(148, 148, 240);
+}
+
+table th, table td {
+    width: 900px;
+}
+
+.scroll-container {
+    overflow-x: auto;
+    max-width: 900px;
+    max-height: 700px;
+    margin: 10px auto;
+}

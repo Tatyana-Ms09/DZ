@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 65px;
+    height: 100%;
+    background-color: #333;
+    color: orange;
+    overflow-y: auto;
+    transition: width 1s;
+    position: fixed;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.menu-item {
+    padding: 25px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu-item:hover {
+    background-color: #555;
+    
+}
+
+.menu-item i {
+    margin-right: 30px;
+}
+.menu {
+    padding: 10px;
+}
+
+.expand {
+    width: 15%;
+
+}
