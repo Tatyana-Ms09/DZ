@@ -1,0 +1,123 @@
+{
+  "id": "2ecfb99c-542b-4732-8e3b-4d2356f7dcee",
+  "version": "2.0",
+  "name": "Test Mazda",
+  "url": "https://www.mazda.com",
+  "tests": [{
+    "id": "2cdf1323-c519-45d2-9041-bf08700231d8",
+    "name": "test 1",
+    "commands": [{
+      "id": "8208a6a0-5f7f-4a80-8415-5f52d6de7f13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35210c70-0dcf-40fc-b4d6-78918651ada9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6033f18b-4739-4117-9e09-00943a8df65a",
+      "comment": "",
+      "command": "click",
+      "target": "id=header-search",
+      "targets": [
+        ["id=header-search", "id"],
+        ["name=kw", "name"],
+        ["css=#header-search", "css:finder"],
+        ["xpath=//input[@id='header-search']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c83ba7d2-40e0-4862-8ff2-724f79957f0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-search",
+      "targets": [
+        ["id=header-search", "id"],
+        ["name=kw", "name"],
+        ["css=#header-search", "css:finder"],
+        ["xpath=//input[@id='header-search']", "xpath:attributes"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "Mazda 2"
+    }, {
+      "id": "3bdf38c5-5957-4b84-a06c-3e583ffcf65f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-search",
+      "targets": [
+        ["css=.button-search", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "647f7dfb-5c5a-4780-bd65-60ede0f808fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.result_txt > p",
+      "targets": [
+        ["css=.result_txt > p", "css:finder"],
+        ["xpath=//div[@id='contents_2014']/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Results for \"Mazda 2\" , 510 Results Found.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ebdbdd7-091b-4dd5-9463-2edbf13787d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcabd93a-f1d3-4cb5-b677-03cc89086862",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.result_txt > p",
+      "targets": [],
+      "value": "Results for \"Mazda 2\" , 510 Results Found."
+    }, {
+      "id": "b7466991-d4e2-41e7-9daf-8e0e98a76a12",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "MAZDA:Search Result",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17203aa9-4431-4cd2-aa84-d125813c97dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MAZDA 100TH ANNIVERSARY｜MAZDA VIRTUAL MUSEUM｜100 Years Timeline - Chapter 2｜MAZDA",
+      "targets": [
+        ["linkText=MAZDA 100TH ANNIVERSARY｜MAZDA VIRTUAL MUSEUM｜100 Years Timeline - Chapter 2｜MAZDA", "linkText"],
+        ["css=.detail_cont:nth-child(1) > h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'MAZDA 100TH ANNIVERSARY｜MAZDA VIRTUAL MUSEUM｜100 Years Timeline - Chapter 2｜MAZDA')]", "xpath:link"],
+        ["xpath=//div[@id='contents_2014']/div[2]/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sitesearch.mazda.jp/?go=bcXDA4oNJnbrQx913ugIhb%252F%252BKFNoSGUeI1uuQMhJcm9umf7FbqM8clD%252BJYITwuPT72HAVHQmkz40tsOOi0eJlBFpIZjXdpTE%26f%3Dr&rid=1457630836361168&temp=global&ref=https%3A%2F%2Fwww.mazda.com%2F')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MAZDA 100TH ANNIVERSARY｜MAZDA VIRTUAL MUSEUM｜100 Years Timeline - Chapter 2｜MAZDA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a1f970d-715b-4d53-860d-7a6f3e653adc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.mazda.com/"],
+  "plugins": []
+}
